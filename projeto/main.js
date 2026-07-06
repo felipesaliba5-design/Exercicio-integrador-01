@@ -6,10 +6,7 @@ function mostrarDados(objeto) {
     
     if (objeto instanceof Aluno) {
         dados += ` | Matrícula: ${objeto.getMatricula() || 'Inválida'}`;
-    } else if (objeto instanceof Professor) {
-        dados += ` | Disciplina: ${objeto.getDisciplina() || 'Indefinida'}`;
-    }
-    
+    } 
     console.log(dados);
 }
 
