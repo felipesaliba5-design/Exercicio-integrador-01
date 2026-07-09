@@ -7,6 +7,7 @@ function mostrarDados(objeto) {
     if (objeto instanceof Aluno) {
         dados += ` | Matrícula: ${objeto.getMatricula() || 'Inválida'}`;
     } 
+
     console.log(dados);
 }
 
