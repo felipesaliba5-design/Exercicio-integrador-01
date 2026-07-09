@@ -31,3 +31,7 @@ const prof1 = new Professor("Júlia", "julia@ifb.edu.br", "Matemática Discreta"
 const prof2 = new Professor("Felipe", "felipe@computacao.com", "Programação Orientada a Objetos");
 mostrarDados(prof1);
 mostrarDados(prof2);
+
+console.log("\nRELATÓRIO FINAL");
+console.log("Testes de encapsulamento e validação concluídos.");
+console.log("Dados que não passaram nas regras mantêm os atributos privados como 'undefined'.");
